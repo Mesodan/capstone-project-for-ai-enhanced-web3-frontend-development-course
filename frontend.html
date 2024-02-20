@@ -1,53 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Token Minter dApp</title>
+    <style>
+        body {
+            background-color: #ffe5b4; /* Customize the hex code for your desired peach shade */
+        }
+    </style>
 </head>
-<body style="background-color: peachpuff;"> <!-- Changed background color to peach -->
 
-    <!-- Header -->
-    <header style="text-align: center; padding: 20px;">
-        <h1>Welcome to our Token Minter dApp</h1>
-        <nav>
-            <ul style="list-style-type: none; padding: 0;">
-                <li style="display: inline; margin-right: 20px;"><a href="#home">Home</a></li>
-                <li style="display: inline; margin-right: 20px;"><a href="#mint">Mint Tokens</a></li>
-                <li style="display: inline;"><a href="#about">About</a></li>
-            </ul>
-        </nav>
+<body>
+
+    <header>
+        <div style="text-align: center;">
+            <h1>Welcome to our Token Minter dApp</h1>
+            <nav>
+                <ul style="display: inline-block;">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#mint">Mint Tokens</a></li>
+                    </ul>
+            </nav>
+        </div>
     </header>
 
-    <!-- Main Content -->
-    <main style="padding: 20px;">
-        <!-- Home Section -->
-        <article id="home" style="margin-bottom: 20px;">
-            <h2>Introduction to Token Minting</h2>
-            <p>This dApp allows users to mint their own tokens on the blockchain.</p>
+    <main>
+
+        <article id="home">
+            <div style="text-align: center;">
+                <h2>Introduction to Token Minting</h2>
+                <p>This dApp allows users to mint their own tokens on the blockchain.</p>
+            </div>
         </article>
 
-        <!-- Mint Section -->
-        <section id="mint" style="margin-bottom: 20px;">
-            <h2>Mint Your Tokens</h2>
-            <form action="#">
-                <input type="email" placeholder="Enter your email" style="margin-right: 10px;">
-                <input type="number" placeholder="Token amount" style="margin-right: 10px;">
-                <button type="submit">Mint</button>
-            </form>
+        <section id="mint">
+            <div style="text-align: center;">
+                <h2>Mint Your Tokens</h2>
+                <form action="#">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" placeholder="Enter your email">
+                    <br>
+                    <label for="token-amount">Token Amount:</label>
+                    <input type="number" id="token-amount" placeholder="Enter token amount">
+                    <br>
+                    <button type="submit">Mint</button>
+                </form>
+            </div>
         </section>
 
-        <!-- Aside Section -->
-        <aside style="border: 1px solid black; padding: 10px;">
-            <h3>Learn More:</h3>
-            <p>Explore more about blockchain technology.</p>
-        </aside>
-    </main>
+        </main>
 
-    <!-- Footer -->
-    <footer style="text-align: center; padding: 10px;">
-        <p>Contact us at <a href="mailto:hello@dProgrammingUniversity.com">hello@dProgrammingUniversity.com</a></p>
+    <footer>
+        <div style="text-align: center;">
+            <p>Contact us at <a href="mailto:hello@dProgrammingUniversity.com">hello@dProgrammingUniversity.com</a></p>
+        </div>
     </footer>
+
 </body>
+
 </html>
+
 
