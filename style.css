@@ -1,0 +1,72 @@
+/* Define base colors */
+:root {
+    --primary-color: #008000; /* Green color */
+    --secondary-color: #bd5f5f; /* Dark gray color */
+    --background-color: #f0f0f0; /* Light gray color */
+    --border-color: #d8d50b; /* Yellow color */
+}
+
+/* Body */
+body {
+    background: linear-gradient(to right, var(--primary-color), white, var(--primary-color)); /* Gradient using variables */
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Main */
+main {
+    border: 2px solid var(--border-color); /* Border using variable */
+    padding: 20px;
+    flex-direction: row;
+}
+
+/* Header */
+header {
+    border: 2px solid var(--primary-color); /* Border and text color using variables */
+    padding: 20px;
+    text-align: center;
+    margin: 5px;
+}
+
+/* Navigation */
+header nav {
+    margin: 10px;
+    padding: 5px;
+    list-style: none;
+    border: 5px solid yellow; /* Yellow border remains specific */
+}
+
+header nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav a {
+    color: var(--secondary-color); /* Text color using variable */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: var(--primary-color); /* Hover color using variable */
+}
+
+/* ... add styles for other elements (h1, h2, p, form, etc.) ... */
+
+/* Footer Styles */
+footer {
+    background-color: var(--background-color); /* Background color using variable */
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a:hover {
+    color: var(--primary-color); /* Hover color using variable */
+    text-decoration: underline;
+}
+
